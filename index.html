@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <title>Borhan's Personal Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css?family=B612+Mono|Cabin:400,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+		.container{
+			margin-top:30px;
+		}
+		.border-size{
+			padding:15px;
+		}
+		
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f9f9f9;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		.dropdown-content a {
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		.dropdown-content a:hover {background-color: #f1f1f1;}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+		
+		<-----------------Overly Image------------------->
+		.imgdhaka {
+		  position: relative;
+		  width: 50%;
+		}
+
+		.overimgQ1{
+		  display: block;
+		  width: 100%;
+		  height: 100%;
+		 
+		}
+
+		.overlay{
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  opacity: 0.9;
+		  background-color: #5E2CED;
+		  overflow: hidden;
+		  width: 0;
+		  height: 100%;
+		  transition: .5s ease;
+		}
+		.imgdhaka:hover .overlay {
+		  width: 100%;
+		}
+
+		.overly-text {
+		  white-space: nowrap; 
+		  color: #fff;
+		  font-size: 20px;
+		  position: absolute;
+		  overflow: hidden;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		}
+		
+		
+		<-----footer------>
+		
+body {
+background: #fbfbfd;
+}
+
+nav.bg{
+	background: #5E2CED;
+}
+
+}
+
+.new_footer_area {
+    background: #fbfbfd;
+}
+
+
+.new_footer_top {
+    padding: 120px 0px 270px;
+    position: relative;
+      overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.footer_bottom {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7f88a6;
+    padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #6a7695;
+    margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+    border-width: 1px;
+    margin-top: 20px;
+}
+.btn_get_two:hover {
+    background: transparent;
+    color: #5e2ced;
+}
+.btn_get:hover {
+    color: #fff;
+    background: #6754e2;
+    border-color: #6754e2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+    color: #5e2ced;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+    margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+    margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+    margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+    margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #e2e2eb;
+    font-size: 24px;
+}
+.f_social_icon a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #858da8;
+    display: inline-block;
+    background: #ebeef5;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.ti-facebook:before {
+    content: "\e741";
+}
+.ti-twitter-alt:before {
+    content: "\e74b";
+}
+.ti-vimeo-alt:before {
+    content: "\e74a";
+}
+.ti-pinterest:before {
+    content: "\e731";
+}
+
+.btn_get_two {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #5e2ced;
+    border-color: #5e2ced;
+    color: #fff;
+}
+
+.btn_get_two:hover {
+    background: transparent;
+    color: #5e2ced;
+}
+
+.new_footer_top .f_social_icon a:hover {
+    background: #5e2ced;
+    border-color: #5e2ced;
+  color:white;
+}
+.new_footer_top .f_social_icon a + a {
+    margin-left: 4px;
+}
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #263b5e;
+}
+.f_600 {
+    font-weight: 600;
+}
+.f_size_18 {
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+    color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png") no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif") no-repeat center center;
+    width: 330px;
+    height: 105px;
+  background-size:100%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+    background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif") no-repeat center center;
+    width: 88px;
+    height: 100px;
+  background-size:100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/*************footer End*****************/
+
+
+	</style>
+   
+  </head>
+  <body>
+  
+	<div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6 d-flex">
+            <a href="index.html" class="site-logo">
+              <b>Borhan Rabbani</b>
+            </a>
+
+          </div>
+          <div class="col-12 col-lg-6 ml-auto d-flex">
+            <div class="ml-md-auto top-social d-none d-lg-inline-block">
+              <a href="#" class="d-inline-block p-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="d-inline-block p-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="d-inline-block p-3"><span class="icon-instagram"></span></a>
+            </div>
+            <form action="#" class="search-form d-inline-block">
+
+              <div class="d-flex">
+                <input type="email" class="form-control" placeholder="Search...">
+                <button type="submit" class="btn btn-secondary" ><span class="icon-search"></span></button>
+              </div>
+            </form>
+
+            
+          </div>
+          <div class="col-6 d-block d-lg-none text-right">
+            
+          </div>
+        </div>
+    </div>
+	
+		<nav class="navbar navbar-expand-lg navbar-dark bg sticky-top">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#education">Education</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#qualification">Qualification</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#leadership">Leadership</a>
+					</li>
+					  
+					<li class="nav-item dropdown">
+						<a href="javascript:void(0)" class="nav-link dropbtn">Profession</a>
+						<div class="dropdown-content">
+							<a href="index.html#programming-pro"> Programming</a>
+							<a href="index.html#teaching"> Teaching</a>
+							<a href="index.html#business"> Business</a>
+						</div>
+					</li>
+										  
+					<li class="nav-item">
+						<a class="nav-link" href="myblog.html">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+				
+				<form class="form-inline my-2 my-lg-0">
+				  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				  <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+		  
+	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+		  </ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img src="cover1.png" class="d-block w-100" title="Borhan Rabbani" alt="cover1">
+			  <div class="carousel-caption d-none d-md-block text-body">
+				<h4>Borhan Rabbani</h4>
+				<h6>A Professional Web-Developer</h6>
+			  </div>
+			</div>
+			<div class="carousel-item">
+			  <img src="cover2.png" class="d-block w-100" title="Borhan Rabbani" alt="cover2">
+			  <div class="carousel-caption d-none d-md-block text-body">
+				<h4>Borhan Rabbani</h4>
+				<h6><q>Success is lurked behind the diligence.</q></h6>
+			  </div>
+			</div>
+			<div class="carousel-item">
+			  <img src="cover3.png" class="d-block w-100" title="Borhan Rabbani" alt="cover3">
+			  <div class="carousel-caption d-none d-md-block text-body">
+				<h4>Borhan Rabbani</h4>
+				<h6>A Professional Web-Developer</h6>
+			  </div>
+			</div>
+		</div>
+		  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+	</div>
+	<!---Slider End--->
+	
+	<div class="container">
+		<div class="jumbotron">
+		  <h1 class="display-4" Align="center"><b>Welcome to My Website</b></h1>
+		  <p class="lead">Hi! This is Borhan Rabbani. I'm a Full Stack Web-Developer.</p>
+		  <p> I've 3+ years experience in Web Applications, Social Apps, E-Learning Platforms, Online Shopping, Job Portals, CRMs, ERP Systems using HTML5, CSS3, JavaScript, AJAX, Jquery, AngularJS, NodeJS, ReactJS, NativeJS, Bootstrap,Php,SQL, Mysqli, codeigniter, wordPress, Data-Entry & Data Mining. I work tirelessly to ensure every job is done on time and correctly. Thanks for visiting my Website.</p>
+		  <a class="btn btn-danger btn-lg" href="https://www.facebook.com/Borhan.Rabbani.876/about" target="_blank" role="button">Read more</a>
+		</div>
+	</div>
+	<div id="qualification" class="container">
+		<h5 class="display-5">Special Qualification:</h5>
+		<div class="card-deck">
+			<div class="card">
+					<div class="imgdhaka">
+						  <img src="Q1.jpg" class="card-img-top overimgQ1" alt="...">
+						<div class="overlay">
+							<div class="overly-text">
+								<b>Hey, Borhan Rabbani!</b> </br>
+								<small>How about your programming?</small>
+							</div>
+						</div>
+					</div>
+								
+				<div class="card-body">
+				  <h5 class="card-title">Programmer</h5>
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-muted">Last updated 3 mins ago</small>
+				</div>
+			</div>
+			<div class="card">
+			
+					<div class="imgdhaka">
+						  <img src="Q2.jpg" class="card-img-top overimgQ1" alt="...">
+						<div class="overlay">
+							<div class="overly-text">
+								<b>Hey, Borhan Rabbani!</b> </br>
+								<small>How about your Business?</small>
+							</div>
+						</div>
+					</div>
+				
+				<div class="card-body">
+				  <h5 class="card-title">Businessman</h5>
+				  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-muted">Last updated 3 mins ago</small>
+				</div>
+			</div>
+			<div class="card">
+			
+				<div class="imgdhaka">
+						  <img src="Q3.jpg" class="card-img-top overimgQ1" alt="...">
+						<div class="overlay">
+							<div class="overly-text">
+								<b>Hey, Borhan Rabbani!</b> </br>
+								<small>How about your Content-Writing?</small>
+							</div>
+						</div>
+					</div>
+				
+				
+				
+				
+				<div class="card-body">
+				  <h5 class="card-title">Content-Writer</h5>
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+				</div>
+				<div class="card-footer">
+				  <small class="text-muted">Last updated 3 mins ago</small>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="education" class="container">
+		
+		<div class="card">
+		  <h5 class="card-header">Education</h5>
+		  <div class="card-body">
+			<h5 class="card-title">BSS, Dhaka University</h5>
+			<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			
+			<h5 class="card-title">IML, Dhaka University</h5>
+			<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			<a href="https://www.facebook.com/Borhan.Rabbani.876/about" target="_blank" class="btn btn-danger">See more</a>
+		  </div>
+		</div>
+	</div>
+	
+	<div id="leadership" class="container">
+		
+		<div class="card">
+		  <h5 class="card-header">Leadership</h5>
+		  <div class="card-body">
+			<h5 class="card-title">Event Planner, Prothom Alo Bondhushava (বন্ধুসভা)</h5>
+			<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			
+			<h5 class="card-title">CR, BASIS Institute of Technology and Management [BITM]</h5>
+			<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			<a href="https://www.facebook.com/Borhan.Rabbani.876/about" target="_blank" class="btn btn-danger">See more</a>
+		  </div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="card">
+				<h5 class="card-header">Profession</h5>
+			<div class="card w-75">
+				<hr>
+				<div id="programming-pro" class="dropdown border-size">
+					  <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Programming
+					  </a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">PHP</a>
+						<div class="progress">
+							  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+						</div>
+					  
+						<a class="dropdown-item" href="#">JavaScript</a>
+						<div class="progress">
+							  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+						</div>
+						
+						<a class="dropdown-item" href="#">Ruby</a>
+						<div class="progress">
+							  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+						</div>
+						
+						<a class="dropdown-item" href="#">Python</a>
+						<div class="progress">
+							  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+						</div>
+						<a class="dropdown-item" href="#">C++</a>
+						<div class="progress">
+							  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+						</div>
+						<a class="dropdown-item" href="#">jQuery</a>
+						<div class="progress">
+							  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+						</div>
+						<a class="dropdown-item" href="#">Bootstrap</a>
+						<div class="progress">
+							  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+						</div>
+						<a class="dropdown-item" href="#">CSS</a>
+						<div class="progress">
+							  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+						</div>
+						<a class="dropdown-item" href="#">HTML5</a>
+						<div class="progress">
+							  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+						</div>
+					 
+					</div><br /><br />
+						<p>A computer programmer, sometimes called only programmer or more recently a coder (especially in more informal contexts), is a person who creates computer software.
+
+							A range of occupations that involve programming also often require a range of other, similar skills, for example: (software) developer, web developer, mobile applications developer, embedded firmware developer, software engineer, computer scientist, game programmer, game developer and software analyst. The use of the term programmer as applied to these positions is sometimes considered an insulting simplification or even derogatory.
+							
+							<br><br>
+							
+							Computer programmers often are grouped into two broad types: application programmers and systems programmers. Application programmers write programs to handle a specific job, such as a program to track inventory within an organization. They also may revise existing packaged software or customize generic applications which are frequently purchased from independent software vendors. Systems programmers, in contrast, write programs to maintain and control computer systems software, such as operating systems and database management systems. These workers make changes in the instructions that determine how the network, workstations, and CPU of the system handle the various jobs they have been given and how they communicate with peripheral equipment such as printers and disk drives.
+						</p>
+				</div>
+				
+				<hr>
+				
+				<div id="teaching" class="dropdown border-size">
+					  <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Teaching
+					  </a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="https://www.facebook.com/GrowUpSkill7/" target="_blank"><h6>GROW UP SKILL</h6></a>
+						<p>____An Online IT Platform</p>
+						<hr>
+						
+						<a class="dropdown-item" href="#"><h6>Razarbag Central Ideal School And College</h6></a>
+						<p>____West-Razarbag, Bashabo, Shabujbagh, Dhaka-1214</p>
+						<hr>
+						
+						<a class="dropdown-item" href="#">loading...</a>
+						
+					</div>
+					<p>
+					<br><br>
+					
+		<pre>
+			__A Teacher takes a hand
+		 opens a mind and touches a heart
+		</pre>
+						 Teaching is about inspiring and motivating students to realize and exceed their potentials. The greatest teachers of all time have devoted their life in inspiring and empowering their students to achieve great things and be a good human being.
+						 So you see, not only teaching as a profession but also as a passion takes you to greater heights.
+					</p>
+				</div>
+				
+								<hr>
+				
+				<div id="business" class="dropdown border-size">
+					  <a class="btn btn-danger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Business
+					  </a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="https://www.facebook.com/houserentbd24/" target="_blank"><h6>House Rent BD</h6></a>
+						<p>____An Online Based Service Organization</p>
+						<hr>
+						
+						<a class="dropdown-item" href="https://www.facebook.com/PushpaGiftsCorner/" target="_blank"><h6>Pushpa Gifts Corner</h6></a>
+						<p>____An Online Based Gift Business Platform</p>
+						<hr>
+						
+						<a class="dropdown-item" href="#">loading...</a>
+						
+					</div> <br /><br />
+					
+					<p>
+						Business is the activity of making one's living or making money by producing or buying and selling products (such as goods and services). Simply put, it is "any activity or enterprise entered into for profit. It does not mean it is a company, a corporation, partnership, or have any such formal organization, but it can range from a street peddler to General Motors."
+						<br><br>
+						Having a business name does not separate the business entity from the owner, which means that the owner of the business is responsible and liable for debts incurred by the business. If the business acquires debts, the creditors can go after the owner's personal possessions. A business structure does not allow for corporate tax rates. The proprietor is personally taxed on all income from the business.
+						<br><br>
+						The term is also often used colloquially (but not by lawyers or by public officials) to refer to a company. A company, on the other hand, is a separate legal entity and provides for limited liability, as well as corporate tax rates. A company structure is more complicated and expensive to set up, but offers more protection and benefits for the owner.
+					</p>
+				</div>
+				<hr>
+					
+			</div>
+		</div>
+		  
+		  
+	</div>
+	
+
+
+<footer class="new_footer_area bg_color">
+            <div class="new_footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                                <h2 class="f-title f_600 t_color f_size_18" id="contact">Contact Me</h2>
+                                <p>Drop an email</p>
+                                <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                                    <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                                    <button class="btn btn_get btn_get_two" type="submit">Send mail</button>
+                                    <p class="mchimp-errmessage" style="display: none;"></p>
+                                    <p class="mchimp-sucmessage" style="display: none;"></p>
+                                </form>
+                            </div>
+                        </div>
+						
+						
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                                <h2 class="f-title f_600 t_color f_size_18">Download</h2>
+                                <ul class="list-unstyled f_list">
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Android App</a></li>
+                                    <li><a href="#">ios App</a></li>
+                                    <li><a href="#">Desktop</a></li>
+                                    <li><a href="#">Projects</a></li>
+                                    <li><a href="#">My tasks</a></li>
+                                </ul>
+                            </div>
+                        </div>
+						
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                                <h2 class="f-title f_600 t_color f_size_18">Help</h2>
+                                <ul class="list-unstyled f_list">
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Term &amp; conditions</a></li>
+                                    <li><a href="#">Reporting</a></li>
+                                    <li><a href="#">Documentation</a></li>
+                                    <li><a href="#">Support Policy</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+						
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                                <h2 class="f-title f_600 t_color f_size_18">Social Media Link</h2>
+                                <div class="f_social_icon">
+                                    <a href="https://www.facebook.com/Borhan.Rabbani.876/" target="_blank" class="fa fa-facebook"></a>
+                                    <a href="#" class="fa fa-twitter"></a>
+                                    <a href="#" class="fa fa-linkedin"></a>
+                                    <a href="#" class="fa fa-pinterest"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bg">
+                    <div class="footer_bg_one"></div>
+                    <div class="footer_bg_two"></div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm-7">
+                            <p class="mb-0 f_200">©Borhan Rabbani ||2020|| All rights reserved.</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-5 text-right">
+                            <p><i class="icon_heart"></i> in <a href="#">Dhaka, Bangladesh.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</footer>
+    <!-- Optional JavaScript -->
+	
+	<div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#ff5e15"/></svg></div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+
+
+
+
+  <script src="js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
